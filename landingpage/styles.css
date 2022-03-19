@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.headerlogo {
+    height: 50px;
+    width: 75px;
+}
+
+header, footer {
+    padding: 0 40px;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    height: 50px;
+}
+
+.headerlinks {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-color: #1F2937;
+}
+
+.hero {
+    width: 400px;
+}
+
+.heroimg img {
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+
+.types {
+    color: black;
+}
+
+.types h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.types img {
+    width: 320px;
+    height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    flex: 0 0 auto;
+}
+
+.typelist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.imagewrapper p {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 400px;
+    gap: 0px;
+}
+
+.quotetext {
+    margin: 10px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quoteauth {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+.prefooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floater {
+    border-radius: 5vh;
+    margin: 5vh 0;
+    width: 70vw;
+    height: 20vh;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.floattext {
+    width: 40vw;
+}
+
+button {
+    color: white;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #3882F6;
+    border: 1px solid white;
+    transition: all .2s;
+    margin: 20px;
+}
+   
+button:hover {
+    border: 3px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
